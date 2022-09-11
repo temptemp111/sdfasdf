@@ -1,0 +1,56 @@
+title: 배우는 모든 것
+author:
+  name: 지선
+  email: mathematikos6@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+date_format: "%F %T %z"
+
+# generate social links in footer
+social_links:
+  # twitter: 
+  github: 1g-sun
+  # devto: 
+  # dribbble: 
+  # facebook: 
+  # flickr:   
+  # instagram: 
+  # linkedin: 
+  # pinterest: 
+  # youtube: 
+  # youtube_channel: 
+  # youtube_channel_name: 
+  # telegram: 
+  # googleplus: 
+  # microdotblog: 
+  # keybase: 
+
+  # Mastodon instances
+  # mastodon:
+  # - username: 
+  #   instance: 
+  # - username: 
+  #   instance: 
+
+  # GitLab instances
+  # gitlab:
+  # - username: 
+  #   instance: 
+  # - username: 
+  #   instance: 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+remote_theme: 1g-sun/jekyll-wiki-theme
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
